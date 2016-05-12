@@ -1,0 +1,17 @@
+#titulo {
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+
+
+    
+} 
+
+#opcion {
+    width: 200px;
+}
+
+#validacioncosto {
+    color: red;
+    font-weight: bold
+}
