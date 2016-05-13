@@ -1,4 +1,16 @@
+function ready() {
+
 // Any time an element with the class of "tagline" is clicked
+
+
+$("#opcion").change(function() {
+ var option = $("#opcion").val()
+
+if(option === "celulares") {
+  alert(option);
+}
+});
+
 $("#calculo").click(function() {
     alert("jQuery works!");
 });
@@ -16,3 +28,6 @@ function myFunction() {
     } 
     document.getElementById("validacioncosto").innerHTML = text;
 }
+}
+ $(document).on('ready page:load', ready);
+ 
