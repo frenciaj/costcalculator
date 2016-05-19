@@ -15,3 +15,7 @@
     color: red;
     font-weight: bold
 }
+
+#option3, #option4, #option5, #option6 {
+    visibility: hidden;
+}
