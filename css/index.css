@@ -16,6 +16,15 @@
     font-weight: bold
 }
 
-#option3, #option4, #option5, #option6 {
-    visibility: hidden;
+#alto, #ancho, #largo {
+    width: 50%;
+}
+
+#result {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.error {
+    color: red;
 }
