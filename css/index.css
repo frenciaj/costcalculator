@@ -2,10 +2,21 @@
     color: white;
     font-size: larger;
     font-weight: bolder;
+}
+
+body {
+      padding-bottom: 70px;
+}
 
 
-    
-} 
+
+#foto {
+  padding: 5px !important;
+}
+
+#logo {
+  padding-bottom: 10px;
+}
 
 #opcion {
     width: 200px;
@@ -20,6 +31,13 @@
     width: 50%;
 }
 
+#botoncalcular {
+  text-align: center;
+}
+
+#resultado {
+  text-align: center;
+}
 #result {
     text-align: center;
     padding-top: 20px;
